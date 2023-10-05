@@ -1,0 +1,61 @@
+/* damos formato a los hr */
+hr{
+    width: 100%;
+    height: 20px;
+    background-color: aquamarine;
+}
+/* agregamos margen izquierdo */
+.margen1{
+    margin-left: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}
+/* agregamos margen derecho */
+.margen2{
+    margin-right: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}
+/* agregamos margen arriba */
+.margen3{
+    margin-top: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}
+/* agregamos margen abajo */
+.margen4{
+    margin-bottom: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}
+/* agregamos margen abajo */
+.margen5{
+    margin: 50px 150px 300px 250px;
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}

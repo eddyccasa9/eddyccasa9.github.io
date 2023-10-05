@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!-- Las tablas se definen con la etiqueta TABLE y dentro de ellas
+    agregamos las filas TR y en cada fila agregamos las columnas TD -->
+    <hr>
+    <h2>Tabla Simple</h2>
+    <!-- Para agregar bordes a la tabla utilizamos el atributo border="" -->
+    <table border="1">
+        <tr>
+            <td>Codigo</td>
+            <td>Nombres y Apellidos</td>
+            <td>DNI</td>
+            <td>Direccion</td>
+            <td>Distrito</td>
+            <td>Telefono</td>
+            <td>Celular</td>
+            <td>correo</td>
+            <td>Sexo</td>
+            <td>Estado</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Eddy Javier Ccasa Tintaya</td>
+            <td>76146955</td>
+            <td>Calle Nueva</td>
+            <td>Cercado de Arequipa</td>
+            <td>3445668</td>
+            <td>936440761</td>
+            <td>eddyccasa9.@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>jose Miguel Hilari</td>
+            <td>76346522</td>
+            <td>olivos</td>
+            <td>Punta de Bombon</td>
+            <td>3445694</td>
+            <td>958725433</td>
+            <td>josehilari.@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Carlos Javier Chambi</td>
+            <td>76985643</td>
+            <td>calle Inca</td>
+            <td>Paucarpata</td>
+            <td>3765348</td>
+            <td>946754768</td>
+            <td>carlos.chambi@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Andre Luciano Viveros</td>
+            <td>76585421</td>
+            <td>Av.Argentina</td>
+            <td>Cerro Colorado</td>
+            <td>3856437</td>
+            <td>957687543</td>
+            <td>luciano.viveros@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Cristian Rodriguez Taco</td>
+            <td>76135478</td>
+            <td>Calle Juan Espinoza</td>
+            <td>Yanahuara</td>
+            <td>3598568</td>
+            <td>967546367</td>
+            <td>cristian.rodriguez@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+    </table>
+    <h2>Tabla con Cabecera</h2>
+    <!-- Para diferenciar la columna normal de una cabecera 
+    cambiamos el TD por el TH -->
+    <table border="1">
+        <tr>
+            <th>Codigo</th>
+            <th>Nombres y Apellidos</th>
+            <th>DNI</th>
+            <th>Direccion</th>
+            <th>Distrito</th>
+            <th>Telefono</th>
+            <th>Celular</th>
+            <th>correo</th>
+            <th>Sexo</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Eddy Javier Ccasa Tintaya</td>
+            <td>76146955</td>
+            <td>Calle Nueva</td>
+            <td>Cercado de Arequipa</td>
+            <td>3445668</td>
+            <td>936440761</td>
+            <td>eddyccasa9.@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>jose Miguel Hilari</td>
+            <td>76346522</td>
+            <td>olivos</td>
+            <td>Punta de Bombon</td>
+            <td>3445694</td>
+            <td>958725433</td>
+            <td>josehilari.@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Carlos Javier Chambi</td>
+            <td>76985643</td>
+            <td>calle Inca</td>
+            <td>Paucarpata</td>
+            <td>3765348</td>
+            <td>946754768</td>
+            <td>carlos.chambi@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Andre Luciano Viveros</td>
+            <td>76585421</td>
+            <td>Av.Argentina</td>
+            <td>Cerro Colorado</td>
+            <td>3856437</td>
+            <td>957687543</td>
+            <td>luciano.viveros@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Cristian Rodriguez Taco</td>
+            <td>76135478</td>
+            <td>Calle Juan Espinoza</td>
+            <td>Yanahuara</td>
+            <td>3598568</td>
+            <td>967546367</td>
+            <td>cristian.rodriguez@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+    </table>
+    <h2>Tabla HTML5</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nombres y Apellidos</th>
+                <th>DNI</th>
+                <th>Direccion</th>
+                <th>Distrito</th>
+                <th>Telefono</th>
+                <th>Celular</th>
+                <th>correo</th>
+                <th>Sexo</th>
+                <th>Estado</th>
+            
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td><p>Es el pie de Pagina</p></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Eddy Javier Ccasa Tintaya</td>
+                <td>76146955</td>
+                <td>Calle Nueva</td>
+                <td>Cercado de Arequipa</td>
+                <td>3445668</td>
+                <td>936440761</td>
+                <td>eddyccasa9.@gmail.com</td>
+                <td>Masculino</td>
+                <td>Habilitado</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>jose Miguel Hilari</td>
+                <td>76346522</td>
+                <td>olivos</td>
+                <td>Punta de Bombon</td>
+                <td>3445694</td>
+                <td>958725433</td>
+                <td>josehilari.@gmail.com</td>
+                <td>Masculino</td>
+                <td>Habilitado</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Carlos Javier Chambi</td>
+                <td>76985643</td>
+                <td>calle Inca</td>
+                <td>Paucarpata</td>
+                <td>3765348</td>
+                <td>946754768</td>
+                <td>carlos.chambi@gmail.com</td>
+                <td>Masculino</td>
+                <td>Habilitado</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Andre Luciano Viveros</td>
+                <td>76585421</td>
+                <td>Av.Argentina</td>
+                <td>Cerro Colorado</td>
+                <td>3856437</td>
+                <td>957687543</td>
+                <td>luciano.viveros@gmail.com</td>
+                <td>Masculino</td>
+                <td>Habilitado</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Cristian Rodriguez Taco</td>
+                <td>76135478</td>
+                <td>Calle Juan Espinoza</td>
+                <td>Yanahuara</td>
+                <td>3598568</td>
+                <td>967546367</td>
+                <td>cristian.rodriguez@gmail.com</td>
+                <td>Masculino</td>
+                <td>Habilitado</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Combinacion de celdas</h2>
+    <!-- Para poder unir 2 o mas celdas de forma vertical
+    combinando filas o de forma horizontal combinando
+    columnas se debe de tener en cuenta la cantidad de celdas
+    que se van a combinar -->
+    <h3>Tabla Normal</h3>
+    <table border="1" cellspacing="25" cellpaddign="15">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+            <td>35</td>
+            <td>36</td>
+        </tr>
+    </table>
+    <h3>Combinando Columnas</h3>
+    <table border="1" cellspacing="25" cellpaddign="15">
+        <tr>
+            <td colspan="3">1, 2 y 3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="4">8, 9, 10 y 11</td>
+
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td colspan="2">17 y 18</td>
+
+        </tr>
+        <tr>
+            <td colspan="6">19, 20, 21, 22, 23 y 24</td>
+        </tr>
+        <tr>
+            <td colspan="2">25 y 26</td>
+            <td>27</td>
+            <td>28</td>
+            <td colspan="2">29 y 30</td>
+        </tr>
+        <tr>
+            <td colspan="2">31, 32</td>
+            <td>33</td>
+            <td colspan="3">34, 35 y 36</td>
+        </tr>
+    </table>
+    <h3>Combinando Filas</h3>
+    <table border="1" cellspacing="25" cellpaddign="15">
+        <tr>
+            <td rowspan="2">1 y 7</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td rowspan="6">6, 12, 18, 24, 30, 36</td>
+
+        </tr>
+        <tr>
+            <td>8</td>
+            <td rowspan="4">9, 15, 21 y 27</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td rowspan="3">14, 20 y 26</td>
+            <td>16</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>28</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+            <td>35</td>
+        </tr>
+    </table>
+    <p>
+        <a href="index.html">Regresar</a>
+    </p>
+    <hr>
+</body>
+</html>

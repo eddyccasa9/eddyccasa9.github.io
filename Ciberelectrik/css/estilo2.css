@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.contenedor{
+    width: 1402px;
+    height: 741px;
+    background-color: darkgreen;
+}
+header{
+    width: 1402px;
+    height: 213px;
+    background-color: red;
+}
+nav{
+    width: 1402px;
+    height: 78px;
+    background-color: green;
+}
+main{
+    width: 1000px;
+    height: 380px;
+    background-color: aqua;
+}
+section{
+    width: 400px;
+    height: 380px;
+    background-color: #CCCCCC;
+    margin-left: 1000px;
+    margin-top: -380px;
+}
+.anuncio1{
+    width: 200px;
+    height: 187px;
+    background-color: orange;
+}
+.anuncio2{
+    width: 200px;
+    height: 187px;
+    background-color: #673FB4;
+}
+footer{
+    width: 1400px;
+    height: 73px;
+    background-color: #9A2FAE;
+}
+/* creamos el menu principal */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* para que el texto que se exceda no se vea */
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid white;
+}
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* le asignamos valoresd cuando esta activado */
+li a.active{
+    background-color: red;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    background-color: darkblue;
+    color: #b1f812;
+}

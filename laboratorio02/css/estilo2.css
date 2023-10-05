@@ -1,0 +1,6 @@
+/* el selector universal aplica el mismo estilo a toda
+la pagina web */
+*{
+    background-color: aqua;
+    color: black;
+}

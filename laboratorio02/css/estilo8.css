@@ -1,0 +1,213 @@
+/* agregamos borde de tipo dotted */
+.borde1{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: dotted;
+}
+
+/* agregamos borde de tipo dashed */
+.borde2{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: dashed;
+}
+
+/* agregamos borde de tipo solid */
+.borde3{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+}
+
+/* agregamos borde de tipo double */
+.borde4{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: double;
+}
+
+/* agregamos borde de tipo groove */
+.borde5{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: groove;
+}
+
+/* agregamos borde de tipo rigde */
+.borde6{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: ridge;
+}
+
+/* agregamos borde de tipo inset */
+.borde7{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: inset;
+}
+
+/* agregamos borde de tipo outset */
+.borde8{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: outset;
+}
+
+/* agregamos borde de tipo none */
+.borde9{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: none;
+}
+
+/* agregamos borde de tipo hidden */
+.borde10{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: hidden;
+}
+
+/* Para combinar valores la sintaxis es :
+2 valores: (arriba y abajo) (izquierda y derecha)
+3 valores: (arriba) (izquierda y derecha) (abajo)
+4 valores: (arriba) (derecha) (abajo) (izquierda) */
+/* combinamos 2 estilos */
+.borde11{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: dotted groove;
+}
+/* combinamos 3 estilos */
+.borde12{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: dotted solid groove;
+}
+/* combinamos 4 estilos */
+.borde13{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: dotted solid dashed groove;
+}
+/* agregamos borde de tipo arriba */
+.borde14{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-top-style: solid;
+}
+/* agregamos borde de tipo abajo */
+.borde15{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-bottom-style: solid;
+}
+/* agregamos borde de tipo izquierda */
+.borde16{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-left-style: solid;
+}
+/* agregamos borde de tipo derecha */
+.borde17{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-right-style: solid;
+}
+/* agregamos color al borde */
+/* 1 color */
+.borde18{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: blueviolet;
+}
+/* 2 colores */
+.borde19{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: blueviolet yellowgreen;
+}
+/* 3 colores */
+.borde20{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: blueviolet yellowgreen orange;
+}
+/* 4 colores */
+.borde21{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: blueviolet yellowgreen orange black;
+}
+/* ancho 1 valor */
+.borde22{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: red;
+    border-width: 15px;
+}
+/* ancho 1 tipo */
+.borde23{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+    border-color: red;
+    border-width: medium;
+}
+/* ancho 4 valores */
+.borde24{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid dashed dotted double;
+    border-color: red yellow green orange; 
+    border-width: 5px 10x 15px 20px;
+}
+/* redondeado 1 valor */
+.borde25{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid ;
+    border-color: red ;
+    border-width: 15px;
+    border-radius: 20px ;
+}
+/* redondeado 4 valores */
+.borde26{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid ;
+    border-color: red ;
+    border-width: 15px;
+    border-radius: 10px 20px 30px 40px;
+}

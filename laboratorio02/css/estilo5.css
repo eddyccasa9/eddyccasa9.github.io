@@ -1,0 +1,113 @@
+/* damos color de fondo a la caja 1 */
+.caja1{
+    background-color: antiquewhite;
+}
+
+/* damos una imagen de fondo a la caja 2 */
+.caja2{
+    background-image: url(/img/html.jpg);
+}
+/* damos color de fondo con transparencia */
+.caja3{
+    background-color: blue;
+    opacity: 45%;
+    color: white;
+}
+
+/* damos una imagen de fondo con transparencia */
+.caja4{
+    background-image: url(/img/html.jpg);
+    opacity: 15%;
+}
+/* damos una imagen de fondo que no se repita */
+.caja5{
+    background-image: url(/img/html.svg);
+    background-repeat: no-repeat;
+}
+
+/* damos una imagane de fondo que se repita de forma 
+:horizontal */
+.caja6{
+    background-image: url("/img/html.webp");
+    background-size: 20px;
+    background-repeat: repeat-x;
+}
+/* damos una imagen de fondo que se repita de forma 
+vertical */
+.caja7{
+    background-image: url("/img/html.webp");
+    background-size: 20px;
+    background-repeat: repeat-y;
+}
+
+/* imagen centrada en el parrafo */
+.parrafoimgcentrar{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* imagen a la izquierda en el parrafo */
+.parrafoimgizquierda{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/* imagen a la derecha en el parrafo */
+.parrafoimgderecha{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte superior en el parrafo */
+.parrafoimgsuperior{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte inferior en el parrafo */
+.parrafoimginferior{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte superior izquierda en el parrafo */
+.parrafoimgsupizq{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte superior derecha en el parrafo */
+.parrafoimgsupder{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte inferior derecha en el parrafo */
+.parrafoimginfder{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+/* imagen en la parte inferior izquierda en el parrafo */
+.parrafoimginfizq{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}

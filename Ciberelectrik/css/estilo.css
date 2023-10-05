@@ -1,0 +1,109 @@
+body{
+    background-color: darkblue;
+}
+/* maquetacion */
+/* estilo para el contenedor */
+.contenedor{
+    width: 1280px;
+    height: 720px;
+    background-color: black;
+}
+header{
+    width: 1280px;
+    height: 233px;
+    background-color: green;
+}
+nav{
+    width: 191px;
+    height: 419.12px;
+    background-color: yellow;
+}
+main{
+    width: 869px;
+    height: 419px;
+    background-color: white;
+    margin-left: 191px;
+    margin-top: -419.12px;
+}
+main h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+section{
+    width: 220px;
+    height: 428.26px;
+    background-color: aqua;
+    margin-left: 1060px;
+    margin-top: -419.12px;
+}
+.anuncio1{
+    width: 220px;
+    height: 143.53px;
+    background-color: #9A2FAE;
+}
+.anuncio2{
+    width: 218.5;
+    height: 139.91;
+    background-color: #666666;
+}
+.anuncio3{
+    width: 220px;
+    height: 141.49px;
+    background-color: #FEE94E;
+}
+.footer{
+    width: 1278.5px;
+    height: 69px;
+    background-color: #434343;
+}
+/* generamos el menu principal */
+ul{
+    /* para que no se vea la viñeta*/
+    list-style: none;
+    /* asignamos un margen 0 */
+    margin: 0;
+    /* asignamos un espaciado de 0 */
+    padding: 0;
+    /* asignamos el ancho del menu */
+    width: 191px;
+    /* asignamos un color de fondo */
+    background-color: black;
+    /* asignamos un borde */
+    border: 1px solid white;
+}
+li a{
+    /* que se vea en bloques */
+    display: block;
+    /* asignamos un color de letra */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li{
+    /* centramos el texto */
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/* quitamos el borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valoresd cuando esta activado */
+li a.active{
+    background-color: red;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    background-color: darkblue;
+    color: #b1f812;
+}
+.banner1{
+    width: 100%;
+    height: 100%;
+}
+.anuncio1 img{
+    width: 100%;
+    height: 100%;
+}

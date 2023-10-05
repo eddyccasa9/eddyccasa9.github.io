@@ -1,0 +1,16 @@
+/* agregamos color de fondo */
+.fondo1{
+    background-color: aqua;
+}
+
+/* agregamos una imagen de fondo */
+.fondo2{
+    background-image: url('/img/html.jpg');
+}
+
+/* agregamos un fondo con transparencia */
+.fondo3{
+    background-color: blue;
+    opacity: 45%;
+    color: aliceblue;
+}

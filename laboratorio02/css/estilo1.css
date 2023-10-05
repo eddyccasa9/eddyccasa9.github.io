@@ -1,0 +1,10 @@
+/* esto es un comentario en la hoja de estilo */
+h1{
+    color: red;
+}
+hr{
+    color: aqua;
+}
+p{
+    background-color: blueviolet; color: aliceblue;
+}
